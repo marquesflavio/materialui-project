@@ -1,20 +1,22 @@
-import './App.css'
-import * as React from 'react';
-import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
+import React from 'react';
+import { Button} from '@mui/material';
 
-function App() { 
+
+// const useStyles = makeStyles({
+//   btn: {
+//     fontSize: 30,
+//     backgroundColor: 'green'
+//   }
+// })
+
+function App() {
+  // const classes = useStyles();
 
   return (
-    <>
-    <Stack spacing={2} direction="row">
-      <Button variant="text">Text</Button>
-      <Button variant="contained" color='info'>Contained</Button>
-      <Button variant="outlined">Outlined</Button>
-    </Stack>
-        
-    </>
-  )
+    <div>
+      <Button>Um botão</Button>
+    </div>
+  );
 }
 
-export default App
+export default App;
