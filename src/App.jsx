@@ -1,21 +1,17 @@
 import React from 'react';
-import { Button} from '@mui/material';
+import { Button, Grid} from '@mui/material';
+import Carousel from './components/praticas/Carrossel';
 
-
-// const useStyles = makeStyles({
-//   btn: {
-//     fontSize: 30,
-//     backgroundColor: 'green'
-//   }
-// })
 
 function App() {
   // const classes = useStyles();
 
   return (
-    <div>
-      <Button>Um botão</Button>
-    </div>
+    
+      <Grid sx={{display:'flex', justifyContent:'center'}}>
+        <Button variant='contained' style={{margin:'auto', border:'none'}}>Botão</Button>
+        <Carousel/>
+      </Grid>
   );
 }
 
