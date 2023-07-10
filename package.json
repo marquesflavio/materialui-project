@@ -16,8 +16,12 @@
     "@mui/system": "^5.13.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+<<<<<<< HEAD
+    "react-slick": "^0.29.0"
+=======
     "react-swipeable-views": "^0.14.0",
     "react-swipeable-views-utils": "^0.14.0"
+>>>>>>> ae26bba6df7a9970406715dc5dda87336fa7ad11
   },
   "devDependencies": {
     "@types/react": "^18.0.37",
