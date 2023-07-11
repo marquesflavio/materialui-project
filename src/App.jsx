@@ -1,17 +1,17 @@
 import './App.css'
 import * as React from 'react';
-import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
+import Teste from './components/praticas/teste';
+import BasicModal from './components/praticas/Modal';
 
 function App() { 
 
   return (
     <>
-    <Stack spacing={2} direction="row">
-      <Button variant="text">Text</Button>
-      <Button variant="contained" color='info'>Contained</Button>
-      <Button variant="outlined">Outlined</Button>
-    </Stack>
+    {/*criando um modal que dispara um calendário*/}
+
+    <Teste/>
+    <BasicModal/>
+
         
     </>
   )
