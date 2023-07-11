@@ -2,10 +2,6 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Modal from '@mui/material/Modal';
-import { DemoContainer, DemoItem } from '@mui/x-date-pickers/internals/demo';
-import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
-import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
-import { DateCalendar } from '@mui/x-date-pickers/DateCalendar';
 
 
 const style = {
@@ -35,13 +31,7 @@ export default function BasicModal() {
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
-            <LocalizationProvider dateAdapter={AdapterDayjs}>
-                <DemoContainer components={['DateCalendar', 'DateCalendar']}>
-                    <DemoItem >
-                        <DateCalendar  />
-                    </DemoItem>
-                </DemoContainer>
-            </LocalizationProvider>
+            Oi, eu sou um modal!
         </Box>
       </Modal>
     </div>

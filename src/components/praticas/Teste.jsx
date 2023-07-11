@@ -1,6 +1,6 @@
 import { Button } from "@mui/material";
 
-const Teste = () => {
+const Teste = (props) => {
 
   const handleClick = () => {
     console.log('clicou')
