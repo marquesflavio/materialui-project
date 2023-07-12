@@ -2,6 +2,8 @@ import './App.css'
 import * as React from 'react';
 import Teste from './components/praticas/teste';
 import BasicModal from './components/praticas/Modal';
+import { CalendarComponent } from '@syncfusion/ej2-react-calendars';
+
 
 function App() { 
 
@@ -11,6 +13,9 @@ function App() {
 
     <Teste/>
     <BasicModal/>
+    <CalendarComponent>
+
+    </CalendarComponent>
 
         
     </>
