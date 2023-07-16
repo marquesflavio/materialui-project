@@ -7,15 +7,19 @@ import { CalendarComponent } from '@syncfusion/ej2-react-calendars';
 
 function App() { 
 
+  const Calendario = function abrirCalendario() {
+    
+  }
+
   return (
     <>
     {/*criando um modal que dispara um calendário*/}
 
     <Teste/>
     <BasicModal/>
-    <CalendarComponent>
 
-    </CalendarComponent>
+    <Button onClick={abrirCalendario} > Aqui tem um calendário</Button>
+   
 
         
     </>
